@@ -8,11 +8,12 @@ sales_list = []
 
 for row in sales_table:
     salesperson = str(row[0])
-    date_time_str = row[1]
-
+    date = datetime.date(row[1])
+    revenue = float(row[2])
+    cost = float(row[3])
     if row[0] != 'Salesperson':
-        date_time_obj = datetime.datetime.strptime(date_time_str, '%m/%d/%Y')
-        date = date_time_obj.date()
+        salesperson = str(row[0])
+        date = datetime.date(row[1])
         revenue = float(row[2])
         cost = float(row[3])
         profit = float(row[2]) - float(row[3])
