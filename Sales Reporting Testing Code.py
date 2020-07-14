@@ -1,8 +1,8 @@
 import csv
 
-sales_data = open("Demo Sales Data.csv")
-sales_table = csv.reader(sales_data)
+with open('Demo Sales Data.csv') as sales_data:
+    mather_manipulator = csv.writer(sales_data)
+    mather_manipulator.writerow(['Revenue']-['Cost'])
 
-for row in sales_table:
-  print(row)
-  
+
+    sales_table = csv.reader(sales_data)
