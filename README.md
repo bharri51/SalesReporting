@@ -10,11 +10,16 @@ My latest task is creating a cumulative commission report for our salespeople, a
 Here are the links that are helping me get to where I'm trying to go:
 
  * [GitHub - Introduction to Python CSV](https://github.com/slott56/introduction-python-csv)
+ * [Python Docs - CSV](https://docs.python.org/3/library/csv.html)
  * [Protechtraining.com](https://www.protechtraining.com/blog/post/python-for-beginners-reading-manipulating-csv-files-737)
  * [GitHub - Manipulating CSV Files Using Python C and Shell Script](https://github.com/mossydidar/Manipulating-CSV-files-using-Python-C-and-Shell-Script)
  * [RealPython](https://realpython.com/openpyxl-excel-spreadsheets-python/)
+ * [Stack Overflow](https://stackoverflow.com/questions/42740869/use-python-to-calculate-data-in-csv)
+ * [Python Docs - DateTime](https://docs.python.org/3/library/datetime.html)
 
  :notes: Notes / Diary of Doubts :expressionless:
 
- Had a lot of trouble getting started with this, as usual.
- I'm hoping it's not too simple for the project or too complicated for me.
+ * Had a lot of trouble getting started with this, as usual. I'm hoping it's not too simple for the project or too complicated for me.
+ * Having a lot of trouble with dates. Asked team in Microsoft Teams. 
+
+ 
