@@ -1,25 +1,28 @@
-
 import csv
-import datetime
-from dateuimport pandas as pd
+import xlsx
+import pandas as pd
 import os
 import time
 from datetime import datetime
 import numpy
 from time import mktime
-import matplotlib
-import matplotlib.pyplot as plt
-import re
-import urllib
 
 
-sales_data_txt = open("Demo Sales Data.csv", 'r')
+sales_data_excel = pd.ExcelFile('Demo Sales Data.xlsx')
+  
+# View the excel_file's sheet names 
+print(sales_data_excel.sheet_names) 
+  
+# Load the excel_file's Sheet1 as a dataframe 
+sheet1 = excel_file.parse('Sheet1') 
+print(sheet1) 
+
 sales_table = sales_data_txt.read()
 print(sales_table)
-headers = sales_table.readline()
+headers = sales_data_txt.readline()
 sales_list = []
 
-for row in sales_data:
+for row in sales_data_txt:
     salesperson = str(row[0])
     month_year = row[1] + " " + row[2]
     revenue = float(row[3])
