@@ -16,6 +16,7 @@ Here are the links that are helping me get to where I'm trying to go:
  * [RealPython](https://realpython.com/openpyxl-excel-spreadsheets-python/)
  * [Stack Overflow](https://stackoverflow.com/questions/42740869/use-python-to-calculate-data-in-csv)
  * [Python Docs - DateTime](https://docs.python.org/3/library/datetime.html)
+ * [Stack Overflow - Conditional Columns](https://stackoverflow.com/questions/19913659/pandas-conditional-creation-of-a-series-dataframe-column)
 
  :notes: Notes / Diary of Doubts :expressionless:
 

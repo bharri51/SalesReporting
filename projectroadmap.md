@@ -4,3 +4,4 @@
 - [x] Write this (projectroadmap)
 - [ ] Figure out date data
 - [ ] Figure out how to consolidate calculated fields by salesperson
+- [x] Find out how to add calculated columns
