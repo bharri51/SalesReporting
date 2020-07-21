@@ -1,5 +1,4 @@
 import csv
-import xlsx
 import pandas as pd
 import os
 import time
@@ -14,7 +13,7 @@ sales_data_excel = pd.ExcelFile('Demo Sales Data.xlsx')
 print(sales_data_excel.sheet_names) 
   
 # Load the excel_file's Sheet1 as a dataframe 
-sheet1 = excel_file.parse('Sheet1') 
+sheet1 = sales_data_excel.parse('Demo Sales Data') 
 print(sheet1) 
 
 sales_table = sales_data_txt.read()
